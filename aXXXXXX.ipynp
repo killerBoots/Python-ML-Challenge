@@ -1,0 +1,8 @@
+def getArrivalProbability(x):
+    """ Return the probability of receiving upto x phone calls in an hour assuming poisson distribution """
+    import math
+    n = math.factorial(x)
+    solve = ((48 ** x) * (2.71828 ** -48)) / n
+    return solve
+    
+    getArrivalProbability(5)
