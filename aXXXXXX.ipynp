@@ -5,4 +5,4 @@ def getArrivalProbability(x):
     solve = ((48 ** x) * (2.71828 ** -48)) / n
     return solve
     
-    getArrivalProbability(5)
+getArrivalProbability(5)
